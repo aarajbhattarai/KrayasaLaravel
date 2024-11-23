@@ -1,0 +1,24 @@
+{
+    "name": "bagisto/bagisto-vendor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagisto",
+            "email": "support@bagisto.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Vendor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Vendor\\Providers\\VendorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
